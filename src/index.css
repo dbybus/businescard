@@ -1,8 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "PPEditorial";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,6 +8,13 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@font-face {
+  font-family: "PPEditorial";
+
+  font-weight: lighter;
+  src: local('PPEditorial'), url('./fonts/PPEditorialNew-Ultralight.woff') format("woff");
 }
 
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono&subset=greek,cyrillic');
